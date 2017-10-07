@@ -29,7 +29,7 @@ public class ShinyObjects {
    		 Clip clip = AudioSystem.getClip();
    		 clip.open(AudioSystem.getAudioInputStream(ShinyObjects.class.getResource("shiny-objects.wav")));
    		 clip.start();
-   		 Thread.sleep(01);
+   		 Thread.sleep(3600);
     	} catch (Exception ex) {
         	ex.printStackTrace();
     	}
