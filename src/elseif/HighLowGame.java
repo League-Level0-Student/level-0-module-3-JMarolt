@@ -17,7 +17,7 @@ public class HighLowGame {
 		// 11. do the following 10 times
 		
 			// 1. ask the user for a guess using a pop-up window, and save their response 
-		for(int i = 0;i<10; i ++) {
+		for(int i = 0;i<22; i ++) {
 String number = JOptionPane.showInputDialog("Guess the number between 1 and 100");
 		
 			// 4. convert the users’ answer to an int (Integer.parseInt(string))
