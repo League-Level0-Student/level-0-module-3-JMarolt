@@ -26,6 +26,6 @@ package modulo;
 **/
 
 public class FizzBuzz {
-
+for()
 }
 
