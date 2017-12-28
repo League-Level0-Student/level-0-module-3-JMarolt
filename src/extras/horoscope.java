@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class horoscope {
 	public static void main(String[] args) {
-	int option = 	JOptionPane.showOptionDialog(null, "choose", "horoscope", JOptionPane.ERROR_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new String [] {"Aries"  ,"Taurus","Gemini", "Cancer","Leo" , "Virgo", "Libra", "Scorpio", "Sagittarius","Capricorn" ,"The Man who Carries Water" , "The Fish"}, null);
+	int option = 	JOptionPane.showOptionDialog(null, "choose", "horoscope", JOptionPane.ERROR_MESSAGE, JOptionPane.DEFAULT_OPTION, null, new String [] {"Aries"  ,"Taurus","Gemini", "Cancer","Leo" , "Virgo", "Libra", "Scorpio", "Sagittarius","Capricorn" ,"Aquarius" , "Pisces"}, null);
 		System.out.println(option);
 if(option == 0)	{
 	JOptionPane.showMessageDialog(null, "While you may be comfortable with your environment, you could receive an unmistakable signal that it's time for change. This could involve a different job, allowing you to make use of skills and talents that have been lying fallow. Don't let small but necessary tasks make you abandon a new course of action. It represents a vital stage in your personal growth.");
@@ -43,7 +43,12 @@ if(option == 0)	{
 				
 		}
 		if(option == 10) {
+			JOptionPane.showMessageDialog(null, "Aquarians are among the friendliest of the signs, making friends everywhere. They are often chosen among co-workers and family for special awards and honors because of their ability to network. Highly intelligent they are energetic and talented, often using their abilities to help others. Despite their extensive people skills, they often crave alone time to reflect and think about things. Meditation is recommended for this sign as it helps to maintain that sense of alone time, while at the same time a feeling of connectedness with something greater than themselves.");	
 				
+		}
+		if(option == 11) {
+			JOptionPane.showMessageDialog(null, "Pisces are empathetic people, often feeling badly for someone whose life is not going well. They feel the need to reach out to those who are less fortunate and will often find themselves involved in drama that they hadn’t intended. They are kind, caring individuals who feel everything deeply, even though you would not know it on the surface. They can be creative and imaginative when they believe that they have support to make those leaps");
+					
 				
 		}
 }
